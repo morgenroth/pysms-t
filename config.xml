@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<config xmlns="http://www.morgenroth.biz/sms77gateway/config">
+  <server id="sms.localhost">
+    <admin>admin@localhost</admin>
+    <name>SMS77.de SMS-Gateway</name>
+    <description>A xmpp-gateway for sms over sms77.de</description>
+    <contacticon>/opt/smsgateway/avatar.png</contacticon>
+  </server>
+  <jabber>
+    <server>localhost</server>
+    <port>5347</port>
+    <name>sms.localhost</name>
+    <password>123456789</password>
+  </jabber>
+  <mysql>
+      <server>localhost</server>
+      <database>sms77gateway</database>
+      <username>sms77user</username>
+      <password>123456789</password>
+  </mysql>
+  <debug>false</debug>
+</config>
